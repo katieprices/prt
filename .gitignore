@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 __pycache__/
 *.idea
+=======
+# Byte-compiled / optimized / DLL files
+__pycache__/
+>>>>>>> 9f44b655c980d0481943357de7848ae29dac26c3
 *.py[cod]
 *$py.class
 
@@ -51,7 +56,10 @@ coverage.xml
 
 # Django stuff:
 *.log
+<<<<<<< HEAD
 local_settings.py
+=======
+>>>>>>> 9f44b655c980d0481943357de7848ae29dac26c3
 
 # Sphinx documentation
 docs/_build/
@@ -61,9 +69,12 @@ target/
 
 #Ipython Notebook
 .ipynb_checkpoints
+<<<<<<< HEAD
 
 # pyenv
 .python-version
 
 Status API Training Shop Blog About Pricing
 © 2016 GitHub, Inc. Terms Privacy Security Contact Help
+=======
+>>>>>>> 9f44b655c980d0481943357de7848ae29dac26c3
