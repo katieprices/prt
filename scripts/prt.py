@@ -1,11 +1,15 @@
 # -*- coding: utf-8 -*-
 import click
+import requests
 
 
 @click.command()
-@click.option('--url', default='', help='base url')
+@click.option('--url', default='', help='base test url')
 def main(url):
-    click.echo('open url %s' % url)
+    try:
+        requests.head(url)
+    except:
+        click.echo('open url %s faild' % url)
 
 
 if __name__ == '__main__':
