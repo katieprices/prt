@@ -8,6 +8,7 @@ setup(
     include_package_data=True,
     install_requires=[
         'Click',
+        'yaml',
     ],
     entry_points='''
         [console_scripts]

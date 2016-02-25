@@ -1,0 +1,6 @@
+# YAML
+
+name: test
+
+conf:
+  url: index.md
